@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widdget</class>
+ <widget class="QMainWindow" name="widdget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>widdget</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Firstlabel">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>40</y>
+      <width>261</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>点击开始自动摇人</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="switchpushbtn">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>210</y>
+      <width>161</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
